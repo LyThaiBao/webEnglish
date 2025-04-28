@@ -1,0 +1,27 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 1170px;
+  width: 80%;
+  margin: 0 auto;
+}
+:root {
+  --container-color: #fff;
+  --primary-color: #1ab69d;
+  --text-color: #181818;
+  --desc-color: #808080;
+}
+/* ======================Common========================== */
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

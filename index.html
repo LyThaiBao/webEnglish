@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+    <!-- Link Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>English</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <nav class="navbar">
+            <div class="navbar__left">
+              <a href="" class="navbar__logo">LOGO</a>
+            </div>
+            <div class="navbar__center">
+              <div class="navbar__category">
+                <div class="navbar__list">
+                  <a href="#" class="navbar__title navbar__title--program">
+                    Chương trình học
+                  </a>
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="" class="dropdown__item">TIÊNG ANH TRẺ EM</a>
+                  <a href="" class="dropdown__item">GIAO TIẾP QUỐC TẾ</a>
+                  <a href="" class="dropdown__item">LUYỆN THI CHỨNG CHỈ</a>
+                  <a href="" class="dropdown__item">KHÓA HỌC CÁ NHÂN HÓA</a>
+                </div>
+              </div>
+              <div class="navbar__category">
+                <div class="navbar__list">
+                  <a href="" class="navbar__title navbar__title--intro">
+                    Giới thiệu
+                  </a>
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="" class="dropdown__item"> GIỚI THIỆU CHUNG </a>
+                  <a href="" class="dropdown__item"> ĐỘI NGỦ GIÁO VIÊN </a>
+                </div>
+              </div>
+              <div class="navbar__category">
+                <div class="navbar__list">
+                  <a href="" class="navbar__title navbar__title--news"
+                    >Bản tin</a
+                  >
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="" class="dropdown__item">TIN TỨC</a>
+                  <a href="" class="dropdown__item">SỰ KIỆN</a>
+                </div>
+              </div>
+              <div class="navbar__category">
+                <div class="navbar__list">
+                  <a href="" class="navbar__title navbar__title--notifi"
+                    >Thông báo</a
+                  >
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="" class="dropdown__item">QUY ĐỊNH</a>
+                  <a href="" class="dropdown__item">KIỂM TRA XẾP LỚP</a>
+                </div>
+              </div>
+              <div class="navbar__category navbar__title--contact">
+                <a href="" class="navbar__title">Liên hệ</a>
+              </div>
+            </div>
+            <div class="navbar__right">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="navbar__small">
+              <label for="checkbox__header">
+                <svg
+                  class="icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                  />
+                </svg>
+              </label>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Navbar__tablet/mobile -->
+      <div class="navbar__responsive">
+        <input
+          type="checkbox"
+          name="checkbox__header"
+          id="checkbox__header"
+          class="checkbox__header"
+          hidden
+        />
+        <svg
+          class="icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+        <div class="navbar__box--list">
+          <div class="navbar__box--top">
+            <div class="navbar__left">
+              <a href="" class="navbar__logo">LOGO</a>
+            </div>
+            <label for="checkbox__header">
+              <svg
+                class="icon--close"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"
+                />
+              </svg>
+            </label>
+          </div>
+          <!-- Content -->
+          <div class="navbar__box--bottom">
+            <div class="navbar__item">
+              <label
+                for="checkbox__content1"
+                class="checkbox__content navbar__list navbar__title navbar__title--program"
+              >
+                Chương trình học
+              </label>
+              <input
+                type="radio"
+                name="checkbox__content"
+                id="checkbox__content1"
+                class="checkbox__content1"
+                hidden
+              />
+              <div class="navbar__dropdown">
+                <a href="" class="dropdown__item">TIÊNG ANH TRẺ EM</a>
+                <a href="" class="dropdown__item">GIAO TIẾP QUỐC TẾ</a>
+                <a href="" class="dropdown__item">LUYỆN THI CHỨNG CHỈ</a>
+                <a href="" class="dropdown__item">KHÓA HỌC CÁ NHÂN HÓA</a>
+              </div>
+            </div>
+
+            <div class="navbar__item">
+              <label for="checkbox__content2">
+                <div
+                  class="checkbox__content navbar__list navbar__title navbar__title--program"
+                >
+                  Chương trình học
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+              </label>
+              <input
+                type="radio"
+                name="checkbox__content"
+                id="checkbox__content2"
+                class="checkbox__content2"
+                hidden
+              />
+              <div class="navbar__dropdown">
+                <a href="" class="dropdown__item">TIÊNG ANH TRẺ EM</a>
+                <a href="" class="dropdown__item">GIAO TIẾP QUỐC TẾ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <label for="checkbox__header" class="overlay"></label>
+      </div>
+
+      <main class="main">
+        <div class="demo">
+          <div class="container">
+            <div class="content">
+              <div class="content__welcome">Chào mừng đến với NPC</div>
+              <h1 class="content__heading">
+                Chuyên dạy tiếng Anh mọi độ tuổi tại thành phố Cần Thơ
+              </h1>
+              <div class="content__desc">
+                “Trung tâm Anh ngữ Nam Phương được thành lập vào năm 2015, nhằm
+                mang đến cho người học những kiến thức và kỹ năng tiếng Anh toàn
+                diện, phù hợp với nhu cầu và mục tiêu của từng cá nhân”
+              </div>
+              <div class="content__btn">
+                <a href="" class="btn--cta">Tư vấn miễn phí</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="container">
+            <div class="box__flex">
+              <div class="flex__item flex__item1">
+                <i class="flex__icon fa-sharp fa-solid fa-graduation-cap"></i>
+                <span class="flex__content">
+                  <h2 class="flex__title">Chương trình đa dạng</h2>
+                  <span class="flex__desc"
+                    >Học tập theo nhu cầu, sở thích và khả năng của mỗi học
+                    viên</span
+                  >
+                </span>
+              </div>
+              <div class="flex__item flex__item2">
+                <i class="flex__icon fa-solid fa-house-laptop"></i>
+                <span class="flex__content">
+                  <h2 class="flex__title">Trình độ chuyên môn cao</h2>
+                  <span class="flex__desc"
+                    >Có kiến thức, kỹ năng, kinh nghiệm giảng dạy tốt và sáng
+                    tạo</span
+                  >
+                </span>
+              </div>
+              <div class="flex__item flex__item3">
+                <i class="flex__icon fa-solid fa-house-laptop"></i>
+                <span class="flex__content">
+                  <h2 class="flex__title">Cơ sở vật chất tiên tiến</h2>
+                  <span class="flex__desc"
+                    >Đầy đủ thiết bị, phương tiện và nguồn lực hỗ trợ học tập
+                    hiệu quả</span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="intro">
+          <div class="container">
+            <div class="weare">
+              <div class="weare__left">
+                <div class="wearw__title">
+                  <h3 class="weare__title--about">Về chúng tôi</h3>
+                  <h2 class="weare__title--about--content">
+                    Mang đến những khóa học chất lượng cao cho người học.
+                  </h2>
+                </div>
+                <div class="weare__list">
+                  <div class="weare__item weare__intro" tabindex="0">
+                    Giới thiệu chung
+                    <p class="weare__desc weare__desc--content">
+                      Trung tâm Anh ngữ Nam Phương, với sự tin tưởng và ủng hộ
+                      từ nhiều thế hệ học viên cùng sự tận tâm của các bậc Phụ
+                      huynh, NPC đã không ngừng phát triển và hoàn thiện. Những
+                      thành công trong học tập và phản hồi tích cực từ học viên
+                      chính là nguồn động lực thúc đẩy đội ngũ Giảng viên của
+                      chúng tôi không ngừng nỗ lực và phấn đấu
+                    </p>
+                  </div>
+                  <div class="weare__item weare__task" tabindex="0">
+                    Sứ mệnh
+                    <p class="weare__desc2 weare__desc--content">
+                      ‘Học ngôn ngữ là để hòa nhập, dạy ngôn ngữ là để giúp mọi
+                      người hòa nhập tốt hơn, phá bỏ mọi rào cản. Việc học và
+                      dạy sẽ chỉ hiệu quả khi chúng là những trải nghiệm vui
+                      vẻ.’ Chúng tôi tin rằng, thông qua việc học và dạy ngôn
+                      ngữ, chúng tôi không chỉ giúp học viên nâng cao kỹ năng
+                      ngôn ngữ của mình, mà còn giúp họ mở rộng tầm nhìn, hòa
+                      nhập vào cộng đồng quốc tế và trở thành công dân toàn cầu.
+                      Trung tâm Anh ngữ Nam Phương luôn nỗ lực để mang đến cho
+                      học viên những trải nghiệm học tập vui vẻ, thoải mái và
+                      hiệu quả
+                    </p>
+                  </div>
+                  <div class="weare__item weare__history" tabindex="0">
+                    Lịch sử
+                    <p class="weare__desc1 weare__desc--content">
+                      Được thành lập và hoạt động dưới sự cho phép của Sở GD&ĐT
+                      Thành phố Cần Thơ từ năm 2015, đã không ngừng phấn đấu để
+                      trở thành một trong những trung tâm Anh ngữ hàng đầu tại
+                      Việt Nam. Với sự tận tâm và đam mê giảng dạy của đội ngũ
+                      giáo viên chất lượng, chúng tôi đã giúp hàng ngàn học viên
+                      đạt được kết quả cao trong các kỳ thi quốc tế. Học viên
+                      IELTS tại NPC đạt kết quả từ 6.0 đến 8.5, trong khi học
+                      viên TOEIC đạt từ 550 đến 890
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="weare__right">
+                <div class="weare__img">
+                  <img
+                    src="./asset/css/img/english__top.jpg"
+                    alt=""
+                    class="weare__img--top"
+                  />
+                </div>
+                <div class="weare__img">
+                  <img
+                    src="./asset/css/img/english__bottom.jpg"
+                    alt=""
+                    class="weare__img--bottom"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="program">
+          <div class="container">
+            <div class="program__primary">
+              <div class="program__title">
+                <h3 class="program__title--intro">CÁC KHÓA HỌC NỔI BẬC</h3>
+                <h2 class="program__title--education">Chương Trình Đào Tạo</h2>
+              </div>
+              <div class="program__list">
+                <a href="" class="program__item">
+                  <div class="program__picture">
+                    <img
+                      src="./asset/css/img/program__chil.jpg"
+                      alt=""
+                      class="program__img"
+                    />
+                  </div>
+                  <div class="program__name">TIẾNG ANH TRẺ EM</div>
+                </a>
+
+                <a href="" class="program__item">
+                  <div class="program__picture">
+                    <img
+                      src="./asset/css/img/program__credit.jpg"
+                      alt=""
+                      class="program__img"
+                    />
+                  </div>
+                  <div class="program__name">GIAO TIẾP QUỐC TẾ</div>
+                </a>
+
+                <a href="" class="program__item">
+                  <div class="program__picture">
+                    <img
+                      src="./asset/css/img/img.jpg"
+                      alt=""
+                      class="program__img"
+                    />
+                  </div>
+                  <div class="program__name">LUYỆN THI CHỨNG CHỈ</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feelback">
+          <div class="container">
+            <div class="feelback__box">
+              <div class="feelback__left">
+                <img
+                  src="./asset/css/img/yeah.jpg"
+                  alt=""
+                  class="feelback__left--img"
+                />
+              </div>
+              <div class="feelback__right">
+                <h3 class="feelback__inter">Quyền lợi học viên</h3>
+                <div class="feelback__list">
+                  <div class="feelback__item">
+                    <div class="feelback__item--icon icon__teach">
+                      <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <div class="feelback__item--content">
+                      <h4 class="feelback__title">
+                        Chất lượng giáo viên hàng đầu
+                      </h4>
+                      <p class="feelback__desc">
+                        Mỗi giáo viên đầu có trình độ chuyên môn cao, luôn cập
+                        nhật kiến thức mới nhất để mang đến cho học viên những
+                        bài giảng chất lượng
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feelback__item">
+                    <div class="feelback__item--icon icon__book">
+                      <i class="fa-solid fa-book"></i>
+                    </div>
+                    <div class="feelback__item--content">
+                      <h4 class="feelback__title">
+                        Chất lượng giáo viên hàng đầu
+                      </h4>
+                      <p class="feelback__desc">
+                        Mỗi giáo viên đầu có trình độ chuyên môn cao, luôn cập
+                        nhật kiến thức mới nhất để mang đến cho học viên những
+                        bài giảng chất lượng
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feelback__item">
+                    <div class="feelback__item--icon icon__hand">
+                      <i class="fa-regular fa-handshake"></i>
+                    </div>
+                    <div class="feelback__item--content">
+                      <h4 class="feelback__title">
+                        Chất lượng giáo viên hàng đầu
+                      </h4>
+                      <p class="feelback__desc">
+                        Mỗi giáo viên đầu có trình độ chuyên môn cao, luôn cập
+                        nhật kiến thức mới nhất để mang đến cho học viên những
+                        bài giảng chất lượng
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feelback__item">
+                    <div class="feelback__item--icon icon__tent">
+                      <i class="fa-solid fa-campground"></i>
+                    </div>
+                    <div class="feelback__item--content">
+                      <h4 class="feelback__title">
+                        Chất lượng giáo viên hàng đầu
+                      </h4>
+                      <p class="feelback__desc">
+                        Mỗi giáo viên đầu có trình độ chuyên môn cao, luôn cập
+                        nhật kiến thức mới nhất để mang đến cho học viên những
+                        bài giảng chất lượng
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feelback__pramary">
+              <div class="feelback__trick">
+                <h2 class="feelback__intro">
+                  Các lời nhận xét và đánh giá từ học viên và phụ huynh
+                </h2>
+              </div>
+              <div class="feelback__people">
+                <div class="feelback__people--item">
+                  <div class="feelback__top">
+                    <img
+                      src="./asset/css/img/NamPhuong avatar"
+                      alt=""
+                      class="feelback__top--img"
+                    />
+                  </div>
+                  <div class="feelback__bottom">
+                    <p class="feelback__talk">
+                      Từ khi mới bước chân lên Cần Thơ, NPC đã là lựa chọn đầu
+                      tiên để em quyết định học. Suốt thời gian gắn bó qua các
+                      khóa Ngọng, Sai, Ngơ và VSTEP, em cảm thấy Trung tâm tư
+                      vấn nhanh và nhiệt tình, cơ sở vật chất đẹp và hiện đại,
+                      nhiều sự kiện rất vui đầy ý nghĩa. Bên cạnh đó, các buổi
+                      học hết sức vui nhộn và dễ hiểu, giáo viên tận tình và
+                      siêu dễ thương, luôn động viên cũng như tận tâm giảng dạy,
+                      qua đó em đã đạt được mục tiêu của mình. I love NPC.
+                    </p>
+                    <ul class="fellback__rating">
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                    <span class="feelback__name">Thái Bảo Đẹp Trai</span>
+                    <span class="feelback__learning">Học viên</span>
+                  </div>
+                </div>
+
+                <div class="feelback__people--item">
+                  <div class="feelback__top">
+                    <img
+                      src="./asset/css/img/english__bottom.jpg"
+                      alt=""
+                      class="feelback__top--img"
+                    />
+                  </div>
+                  <div class="feelback__bottom">
+                    <p class="feelback__talk">
+                      Từ khi mới bước chân lên Cần Thơ, NPC đã là lựa chọn đầu
+                      tiên để em quyết định học. Suốt thời gian gắn bó qua các
+                      khóa Ngọng, Sai, Ngơ và VSTEP, em cảm thấy Trung tâm tư
+                      vấn nhanh và nhiệt tình, cơ sở vật chất đẹp và hiện đại,
+                      nhiều sự kiện rất vui đầy ý nghĩa. Bên cạnh đó, các buổi
+                      học hết sức vui nhộn và dễ hiểu, giáo viên tận tình và
+                      siêu dễ thương, luôn động viên cũng như tận tâm giảng dạy,
+                      qua đó em đã đạt được mục tiêu của mình. I love NPC.
+                    </p>
+                    <ul class="fellback__rating">
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                    <span class="feelback__name">Thái Bảo Đẹp Trai</span>
+                    <span class="feelback__learning">Học viên</span>
+                  </div>
+                </div>
+
+                <div class="feelback__people--item">
+                  <div class="feelback__top">
+                    <img
+                      src="./asset/css/img/NamPhuong avatar"
+                      alt=""
+                      class="feelback__top--img"
+                    />
+                  </div>
+                  <div class="feelback__bottom">
+                    <p class="feelback__talk">
+                      Từ khi mới bước chân lên Cần Thơ, NPC đã là lựa chọn đầu
+                      tiên để em quyết định học. Suốt thời gian gắn bó qua các
+                      khóa Ngọng, Sai, Ngơ và VSTEP, em cảm thấy Trung tâm tư
+                      vấn nhanh và nhiệt tình, cơ sở vật chất đẹp và hiện đại,
+                      nhiều sự kiện rất vui đầy ý nghĩa. Bên cạnh đó, các buổi
+                      học hết sức vui nhộn và dễ hiểu, giáo viên tận tình và
+                      siêu dễ thương, luôn động viên cũng như tận tâm giảng dạy,
+                      qua đó em đã đạt được mục tiêu của mình. I love NPC.
+                    </p>
+                    <ul class="fellback__rating">
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                      <li class="feelback__start">
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                    <span class="feelback__name">Thái Bảo Đẹp Trai Số 1TG</span>
+                    <span class="feelback__learning">Học viên</span>
+                  </div>
+                </div>
+                <ul class="convert">
+                  <li class="convert__icon">
+                    <i class="fa-solid fa-circle"></i>
+                  </li>
+                  <li class="convert__icon">
+                    <i class="fa-solid fa-circle"></i>
+                  </li>
+                  <li class="convert__icon">
+                    <i class="fa-solid fa-circle"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="even">
+          <div class="container">
+            <div class="even__recent">
+              <h3 class="even__intro">Hoạt động và sự kiện mới nhất</h3>
+              <div class="even__list">
+                <div class="even__item">
+                  <div class="even__top">
+                    <div class="opacity">
+                      <img
+                        src="./asset/css/img/NamPhuong avatar"
+                        alt=""
+                        class="even__top--img"
+                      />
+                    </div>
+                  </div>
+                  <div class="even__bottom">
+                    <div class="even__name">ELT Camp 2023</div>
+                    <div class="even__top--day">
+                      <strong class="day">32</strong>Th12
+                    </div>
+                    <div class="even__desc">
+                      Trại giáo dục Tiếng Anh - Elt Camp 2023 lần đầu tiên được
+                      tổ chức fdsfffrfgeffereferferfferfererefwrferf
+                    </div>
+                    <a href="" class="even__link">
+                      <div class="even__seemore">
+                        Xem thêm
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="even__item">
+                  <div class="even__top">
+                    <div class="opacity">
+                      <img
+                        src="./asset/css/img/myseft.jpg"
+                        alt=""
+                        class="even__top--img"
+                      />
+                    </div>
+                  </div>
+                  <div class="even__bottom">
+                    <div class="even__name">THÁI BẢO ĐẸP TRAI GHÉ THĂM</div>
+                    <div class="even__top--day">
+                      <strong class="day">32</strong>Th12
+                    </div>
+                    <div class="even__desc">
+                      Một người được mệnh danh đẹp trai level max đã ghé thăm
+                      trung tâm, điều này khiến thầy,cô và các bạn vui mừng khôn
+                      siết
+                    </div>
+                    <a href="" class="even__link">
+                      <div class="even__seemore">
+                        Xem thêm
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="even__item">
+                  <div class="even__top">
+                    <div class="opacity">
+                      <img
+                        src="./asset/css/img/img.jpg"
+                        alt=""
+                        class="even__top--img"
+                      />
+                    </div>
+                  </div>
+                  <div class="even__bottom">
+                    <div class="even__name">ELT Camp 2023</div>
+                    <div class="even__top--day">
+                      <strong class="day">32</strong>Th12
+                    </div>
+                    <div class="even__desc">
+                      Trại giáo dục Tiếng Anh - Elt Camp 2023 lần đầu tiên được
+                      tổ chức fdsfffrfgeffereferferfferfererefwrferf
+                    </div>
+                    <a href="" class="even__link">
+                      <div class="even__seemore">
+                        Xem thêm
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="" class="even__seeall">
+            Xem tất cả
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="relation">
+          <div class="container">
+            <div class="relation__list">
+              <div class="relation__item">
+                <img
+                  src="./asset/css/img/relatetion1.jpg"
+                  alt=""
+                  class="relation__item--img"
+                />
+              </div>
+
+              <div class="relation__item">
+                <img
+                  src="./asset/css/img/relatetion2.jpg"
+                  alt=""
+                  class="relation__item--img2"
+                />
+              </div>
+
+              <div class="relation__item">
+                <img
+                  src="./asset/css/img/relatetion3.jpg"
+                  alt=""
+                  class="relation__item--img3"
+                />
+              </div>
+
+              <div class="relation__item">
+                <img
+                  src="./asset/css/img/relatetion4.jpg"
+                  alt=""
+                  class="relation__item--img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cta">
+          <div class="container">
+            <div class="cta--buy">
+              <div class="cta__title">
+                Đăng ký học dễ dàng và nhanh chóng thông qua website
+              </div>
+              <a href="" class="cta__btn">
+                <div class="cta__btn--hover">
+                  <div class="cta__btn--title">Tư vấn miễn phí</div>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__list">
+            <div class="footer__item footer__contact">
+              <img
+                src="./asset/css/img/myseft.jpg"
+                alt=""
+                class="footer__contact--img"
+              />
+              <ul class="footer__contact--imfor">
+                <li class="footer__content">
+                  Địa chỉ: 53 Nam Cao, Khu Dân cư 91B, An Khánh, Ninh Kiều, TP.
+                  Cần Thơ
+                </li>
+                <li class="footer__content">
+                  Email:
+                  <a
+                    href="mailto:baoly069@gmail.com"
+                    class="footer__content--mail"
+                    >baoly069@gmail.com</a
+                  >
+                </li>
+                <li class="footer__content">Hotline: 02923 828 959</li>
+                <li class="footer__content">Zalo: 0839 042 517</li>
+              </ul>
+            </div>
+            <div class="footer__item footer__link">
+              <div class="footer__title">Liên kết</div>
+              <ul class="footer__link--imfor">
+                <li class="footer__content">Về chúng tôi</li>
+                <li class="footer__content">Khóa học</li>
+                <li class="footer__content">Đội ngũ giáo viên</li>
+                <li class="footer__content">Câu hỏi thường gặp</li>
+                <li class="footer__content">Quy định</li>
+                <li class="footer__content">Sự kiện</li>
+                <li class="footer__content">Tin tức</li>
+                <li class="footer__content">Kiểm tra đầu vào</li>
+              </ul>
+            </div>
+            <div class="footer__item footer__folow">
+              <div class="footer__title">Theo dõi chúng tôi</div>
+              <div class="footer__title--cta">
+                Nhập địa chỉ Email của bạn để đăng ký nhận tin tức từ chúng tôi:
+              </div>
+              <div class="footer__input">
+                <input
+                  type="text"
+                  placeholder="Email của bạn"
+                  class="footer__input--left"
+                />
+                <a href="" class="footer__input--right">
+                  Đăng kí
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+              <div class="footer__social">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100081727174528&locale=vi_VN"
+                  class="footer__social--fb"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="" class="footer__social--yb">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="coppyright">
+        <div class="container">
+          <p class="coppyright__content">
+            Copyright 2024
+            <a
+              href=" https://www.facebook.com/profile.php?id=100081727174528&locale=vi_VN"
+              class="coppyright__name"
+            >
+              Lý Thái Bảo
+            </a>
+            | Developed By <a href="" class="coppyright__dev"> BaoDev </a>. All
+            Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
