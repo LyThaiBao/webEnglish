@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Comunication</title>
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./asset/css/communicate.css" />
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <!-- Link Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="container__mobile">
+          <nav class="navbar">
+            <div class="navbar__left">
+              <a href="" class="navbar__logo">LOGO</a>
+            </div>
+            <input
+              type="checkbox"
+              name="navbar__mobile--checkbox"
+              id="navbar__mobile--checkbox"
+              class="navbar__mobile--checkbox"
+              hidden
+            />
+            <div class="navbar__center">
+              <!-- Nav Mobile -->
+              <div class="navbar__mobile">
+                <a href="" class="logo">LOGO</a>
+                <label for="navbar__mobile--checkbox" class="navbar__close">
+                  <i class="fa-solid fa-xmark"></i>
+                </label>
+              </div>
+
+              <div class="navbar__category" tabindex="0">
+                <div class="navbar__list">
+                  <div class="navbar__title navbar__title--program">
+                    Chương trình học
+                  </div>
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="./english__child.html" class="dropdown__item"
+                    >TIÊNG ANH TRẺ EM</a
+                  >
+                  <a href="./communicate.html" class="dropdown__item"
+                    >GIAO TIẾP QUỐC TẾ</a
+                  >
+                  <a href="./credit.html" class="dropdown__item"
+                    >LUYỆN THI CHỨNG CHỈ</a
+                  >
+                  <a href="./personal.html" class="dropdown__item"
+                    >KHÓA HỌC CÁ NHÂN HÓA</a
+                  >
+                </div>
+              </div>
+              <div class="navbar__category" tabindex="0">
+                <div class="navbar__list">
+                  <div class="navbar__title navbar__title--intro">
+                    Giới thiệu
+                  </div>
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="./intro.html" class="dropdown__item">
+                    GIỚI THIỆU CHUNG
+                  </a>
+                  <a href="./teach.html" class="dropdown__item">
+                    ĐỘI NGỦ GIÁO VIÊN
+                  </a>
+                </div>
+              </div>
+              <div class="navbar__category" tabindex="0">
+                <div class="navbar__list">
+                  <div class="navbar__title navbar__title--news">Bản tin</div>
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="./news.html" class="dropdown__item">TIN TỨC</a>
+                  <a href="./event.html" class="dropdown__item">SỰ KIỆN</a>
+                </div>
+              </div>
+              <div class="navbar__category" tabindex="0">
+                <div class="navbar__list">
+                  <div class="navbar__title navbar__title--notifi">
+                    Thông báo
+                  </div>
+                  <i class="navbar__icon fa-solid fa-caret-down"></i>
+                </div>
+                <div class="navbar__dropdown">
+                  <a href="" class="dropdown__item">QUY ĐỊNH</a>
+                  <a href="" class="dropdown__item">KIỂM TRA XẾP LỚP</a>
+                </div>
+              </div>
+              <div class="navbar__title--contact navbar__category" tabindex="0">
+                <a href="" class="navbar__title">Liên hệ</a>
+              </div>
+            </div>
+            <label
+              for="navbar__mobile--checkbox"
+              class="navbar__overlay"
+            ></label>
+            <div class="navbar__right">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <label
+                for="navbar__mobile--checkbox"
+                class="navbar__mobile--list"
+              >
+                <i class="fa-solid fa-list"></i>
+              </label>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__title">
+          <div class="container__mobile">
+            <div class="content__topic">
+              <span class="content__intro">Chuyên mục:</span>
+              <span class="content__name">GIAO TIẾP QUỐC TẾ</span>
+            </div>
+            <div class="content__path">
+              <a href="index.html">Trang chủ</a>
+              <span>Khóa học</span>
+            </div>
+          </div>
+        </div>
+        <div class="main__content">
+          <div class="container__mobile">
+            <div class="main__content--top">
+              <span class="main__content--infor"
+                >Đang hiển thị <span>1-5</span> trong tổng số <span>5</span> kết
+                quả</span
+              >
+              <input
+                type="text"
+                name="main__content--find"
+                id="main__content--find"
+                placeholder="Tìm kím khóa học..."
+              />
+              <!-- <div class="main__content--icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div> -->
+            </div>
+            <div class="main__content--bottom">
+              <div class="main__content--course">
+                <section class="main__content--list">
+                  <div class="main__content--item">
+                    <div class="main__content--thumb">
+                      <img
+                        class="main__content--img"
+                        src="./asset/css/img/wrong.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="main__content--desc">
+                      <ul class="content__title">
+                        <li class="content--imfor">Không giới hạn trình độ</li>
+                        <li class="content--imfor">
+                          Làm quen Tiếng Anh (3 - 6 tuổi)
+                        </li>
+                        <li class="content--imfor">109.375đ</li>
+                      </ul>
+                      <div class="content--learn">
+                        <div class="content--lession">16 buổi học</div>
+                        <div class="content--student">1000 học viên</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main__content--hover">
+                    <div class="main__content--heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="main__content--desc">
+                      <ul class="content__title">
+                        <li class="content--imfor">Không giới hạn trình độ</li>
+                        <a href="">
+                          <li class="content--imfor">
+                            Làm quen Tiếng Anh (3 - 6 tuổi)
+                          </li>
+                        </a>
+                        <li class="content--imfor">109.375đ</li>
+                      </ul>
+                      <p>
+                        Chương trình Tiếng Anh Trẻ Em là khóa đào tạo dành cho
+                        trẻ muốn học tiếng Anh một cách vui nhộn, hiệu quả, cơ
+                        hội.
+                      </p>
+                      <div class="content--learn">
+                        <div class="content--lession">16 buổi học</div>
+                        <div class="content--student">1000 học viên</div>
+                      </div>
+                      <div class="content__cta">
+                        <a href="" class="cta--title">Đăng ký ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="main__content--list">
+                  <div class="main__content--item">
+                    <div class="main__content--thumb">
+                      <img
+                        class="main__content--img"
+                        src="./asset/css/img/crazy.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="main__content--desc">
+                      <ul class="content__title">
+                        <li class="content--imfor">Không giới hạn trình độ</li>
+                        <li class="content--imfor">
+                          Làm quen Tiếng Anh (3 - 6 tuổi)
+                        </li>
+                        <li class="content--imfor">109.375đ</li>
+                      </ul>
+                      <div class="content--learn">
+                        <div class="content--lession">16 buổi học</div>
+                        <div class="content--student">1000 học viên</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main__content--hover">
+                    <div class="main__content--heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="main__content--desc">
+                      <ul class="content__title">
+                        <li class="content--imfor">Không giới hạn trình độ</li>
+                        <a href="">
+                          <li class="content--imfor">
+                            Làm quen Tiếng Anh (3 - 6 tuổi)
+                          </li>
+                        </a>
+                        <li class="content--imfor">109.375đ</li>
+                      </ul>
+                      <p>
+                        Chương trình Tiếng Anh Trẻ Em là khóa đào tạo dành cho
+                        trẻ muốn học tiếng Anh một cách vui nhộn, hiệu quả, cơ
+                        hội.
+                      </p>
+                      <div class="content--learn">
+                        <div class="content--lession">16 buổi học</div>
+                        <div class="content--student">1000 học viên</div>
+                      </div>
+                      <div class="content__cta">
+                        <a href="" class="cta--title">Đăng ký ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="main__content--list">
+                  <div class="main__content--item">
+                    <div class="main__content--thumb">
+                      <img
+                        class="main__content--img"
+                        src="./asset/css/img/wrong__end.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="main__content--desc">
+                      <ul class="content__title">
+                        <li class="content--imfor">Không giới hạn trình độ</li>
+                        <li class="content--imfor">
+                          Làm quen Tiếng Anh (3 - 6 tuổi)
+                        </li>
+                        <li class="content--imfor">109.375đ</li>
+                      </ul>
+                      <div class="content--learn">
+                        <div class="content--lession">16 buổi học</div>
+                        <div class="content--student">1000 học viên</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main__content--hover">
+                    <div class="main__content--heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="main__content--desc">
+                      <ul class="content__title">
+                        <li class="content--imfor">Không giới hạn trình độ</li>
+                        <a href="">
+                          <li class="content--imfor">
+                            Làm quen Tiếng Anh (3 - 6 tuổi)
+                          </li>
+                        </a>
+                        <li class="content--imfor">109.375đ</li>
+                      </ul>
+                      <p>
+                        Chương trình Tiếng Anh Trẻ Em là khóa đào tạo dành cho
+                        trẻ muốn học tiếng Anh một cách vui nhộn, hiệu quả, cơ
+                        hội.
+                      </p>
+                      <div class="content--learn">
+                        <div class="content--lession">16 buổi học</div>
+                        <div class="content--student">1000 học viên</div>
+                      </div>
+                      <div class="content__cta">
+                        <a href="" class="cta--title">Đăng ký ngay</a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container__mobile">
+          <div class="footer__list">
+            <div class="footer__item footer__contact">
+              <img
+                src="./asset/css/img/myseft.jpg"
+                alt=""
+                class="footer__contact--img"
+              />
+              <ul class="footer__contact--imfor">
+                <li class="footer__content">
+                  Địa chỉ: 53 Nam Cao, Khu Dân cư 91B, An Khánh, Ninh Kiều, TP.
+                  Cần Thơ
+                </li>
+                <li class="footer__content">
+                  Email:
+                  <a
+                    href="mailto:baoly069@gmail.com"
+                    class="footer__content--mail"
+                    >baoly069@gmail.com</a
+                  >
+                </li>
+                <li class="footer__content">Hotline: 02923 828 959</li>
+                <li class="footer__content">Zalo: 0839 042 517</li>
+              </ul>
+            </div>
+            <div class="footer__item footer__link">
+              <div class="footer__title">Liên kết</div>
+              <ul class="footer__imfor footer__link--imfor">
+                <li class="footer__content">Về chúng tôi</li>
+                <li class="footer__content">Khóa học</li>
+                <li class="footer__content">Đội ngũ giáo viên</li>
+                <li class="footer__content">Câu hỏi thường gặp</li>
+                <li class="footer__content">Quy định</li>
+                <li class="footer__content">Sự kiện</li>
+                <li class="footer__content">Tin tức</li>
+                <li class="footer__content">Kiểm tra đầu vào</li>
+              </ul>
+            </div>
+            <div class="footer__item footer__folow">
+              <div class="footer__title">Theo dõi chúng tôi</div>
+              <div class="footer__imfor">
+                <div class="footer__title--cta">
+                  Nhập địa chỉ Email của bạn để đăng ký nhận tin tức từ chúng
+                  tôi:
+                </div>
+                <form class="footer__input">
+                  <input
+                    type="text"
+                    placeholder="Email của bạn"
+                    class="footer__input--left"
+                  />
+                  <a href="" class="footer__input--right">
+                    Đăng kí
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </form>
+                <div class="footer__social">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100081727174528&locale=vi_VN"
+                    class="footer__social--fb"
+                  >
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="" class="footer__social--yb">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="coppyright">
+            <div class="container__mobile">
+              <p class="coppyright__content">
+                Copyright 2024
+                <a
+                  href=" https://www.facebook.com/profile.php?id=100081727174528&locale=vi_VN"
+                  class="coppyright__name"
+                >
+                  Lý Thái Bảo
+                </a>
+                | Developed By <a href="" class="coppyright__dev"> BaoDev </a>.
+                All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

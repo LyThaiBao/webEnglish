@@ -8,15 +8,28 @@ html {
   font-size: 62.5%;
 }
 .container {
-  max-width: 1170px;
-  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
 }
+.container__mobile {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  /* overflow: hidden; */
+}
+
 :root {
   --container-color: #fff;
   --primary-color: #1ab69d;
   --text-color: #181818;
   --desc-color: #808080;
+  --font-size--mobile: 2.6rem;
+  --font-size--desc: 1.5rem;
 }
 /* ======================Common========================== */
 a {
@@ -24,4 +37,7 @@ a {
 }
 li {
   list-style: none;
+}
+ul {
+  padding: 0;
 }
