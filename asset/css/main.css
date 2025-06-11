@@ -344,6 +344,7 @@
   color: var(--primary-color);
   cursor: pointer;
 }
+
 /* ===== Focus 3 title ===== */
 
 .weare__desc--content {
@@ -473,9 +474,7 @@
   width: 100%;
   margin-top: 60px;
 }
-.feelback__item + .feelback__item {
-  margin-top: 25px;
-}
+
 .feelback__inter {
   font-size: 2.6rem;
   font-weight: 700;
@@ -495,9 +494,7 @@
   justify-content: space-around;
   align-items: center;
 }
-.feelback__item--content {
-  /* width: 70%; */
-}
+
 .feelback__item--icon {
   font-size: 3rem;
 }
@@ -523,9 +520,12 @@
 }
 .feelback__people {
   display: grid;
+  /* display: flex; */
+  flex-wrap: wrap;
   grid-template-columns: 100%;
   column-gap: 20px;
 }
+
 .feelback__people--item:not(.feelback__people--item:first-child) {
   display: none;
 }
@@ -977,9 +977,13 @@
   .feelback__people--item:not(.feelback__people--item:first-child) {
     display: block;
   }
-  .feelback__people--item:nth-child(3) {
-    display: none !important;
+  .feelback__people--item:first-child {
+    /* transform: translateX(-100vw); */
   }
+  .feelback__people--item:nth-child(3) {
+    /* display: none !important; */
+  }
+
   .convert {
     transform: translateX(190px);
   }
@@ -1015,7 +1019,7 @@
     display: block !important;
   }
   .convert {
-    transform: translateX(328px);
+    transform: translateX(400px);
   }
   .even__list {
     grid-template-columns: repeat(3, 1fr);
